@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Needle7 {
 
-    private final Deth8 deth;
+    private Deth8 deth;
 
     @Autowired
-    public Needle7(Deth8 deth) {
+    public void setDeth(Deth8 deth) {
         this.deth = deth;
     }
 
