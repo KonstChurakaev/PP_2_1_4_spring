@@ -7,6 +7,6 @@ public class Duck5 {
 
     @Override
     public String toString() {
-        return ", в утке яйцо " + "";
+        return ", в утке яйцо(duck) " + "";
     }
 }
